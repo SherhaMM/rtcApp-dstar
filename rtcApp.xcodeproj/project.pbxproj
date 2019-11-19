@@ -7,23 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBE871438367F7706D3E1876 /* libPods-rtcApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1123DDEEDF9492DBC6434B5 /* libPods-rtcApp.a */; };
+		F94333722381FE20005CF627 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94333712381FE20005CF627 /* CallViewController.swift */; };
 		F9C789C12381CC8B0093DFA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C789C02381CC8B0093DFA0 /* AppDelegate.swift */; };
-		F9C789C32381CC8B0093DFA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C789C22381CC8B0093DFA0 /* ViewController.swift */; };
-		F9C789C62381CC8B0093DFA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C789C42381CC8B0093DFA0 /* Main.storyboard */; };
-		F9C789C92381CC8B0093DFA0 /* rtcApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9C789C72381CC8B0093DFA0 /* rtcApp.xcdatamodeld */; };
+		F9C789C32381CC8B0093DFA0 /* RoomInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C789C22381CC8B0093DFA0 /* RoomInfoViewController.swift */; };
 		F9C789CB2381CC8B0093DFA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C789CA2381CC8B0093DFA0 /* Assets.xcassets */; };
 		F9C789CE2381CC8B0093DFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C789CC2381CC8B0093DFA0 /* LaunchScreen.storyboard */; };
+		F9C789F02381ECBB0093DFA0 /* ARDAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789DE2381ECB20093DFA0 /* ARDAppClient.m */; };
+		F9C789F12381ECBB0093DFA0 /* ARDRegisterResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789DF2381ECB30093DFA0 /* ARDRegisterResponse.m */; };
+		F9C789F22381ECBB0093DFA0 /* ARDSignalingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789E02381ECB30093DFA0 /* ARDSignalingMessage.m */; };
+		F9C789F32381ECBB0093DFA0 /* RTCICECandidate+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789E52381ECB50093DFA0 /* RTCICECandidate+JSON.m */; };
+		F9C789F42381ECBB0093DFA0 /* ARDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789E62381ECB60093DFA0 /* ARDUtilities.m */; };
+		F9C789F52381ECBB0093DFA0 /* ARDMessageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789E92381ECB70093DFA0 /* ARDMessageResponse.m */; };
+		F9C789F62381ECBB0093DFA0 /* RTCMediaConstraints+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789EA2381ECB80093DFA0 /* RTCMediaConstraints+JSON.m */; };
+		F9C789F72381ECBB0093DFA0 /* RTCSessionDescription+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789EB2381ECB80093DFA0 /* RTCSessionDescription+JSON.m */; };
+		F9C789F82381ECBB0093DFA0 /* RTCICEServer+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789EC2381ECB90093DFA0 /* RTCICEServer+JSON.m */; };
+		F9C789F92381ECBB0093DFA0 /* ARDWebSocketChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C789EF2381ECBB0093DFA0 /* ARDWebSocketChannel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6748A20157196412650238A0 /* Pods-rtcApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rtcApp.release.xcconfig"; path = "Target Support Files/Pods-rtcApp/Pods-rtcApp.release.xcconfig"; sourceTree = "<group>"; };
+		7F32914D5FEA60B1555C35FB /* Pods-rtcApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rtcApp.debug.xcconfig"; path = "Target Support Files/Pods-rtcApp/Pods-rtcApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B1123DDEEDF9492DBC6434B5 /* libPods-rtcApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rtcApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94333712381FE20005CF627 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
 		F9C789BD2381CC8B0093DFA0 /* rtcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rtcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C789C02381CC8B0093DFA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9C789C22381CC8B0093DFA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F9C789C52381CC8B0093DFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F9C789C82381CC8B0093DFA0 /* rtcApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rtcApp.xcdatamodel; sourceTree = "<group>"; };
+		F9C789C22381CC8B0093DFA0 /* RoomInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomInfoViewController.swift; sourceTree = "<group>"; };
 		F9C789CA2381CC8B0093DFA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9C789CD2381CC8B0093DFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9C789CF2381CC8B0093DFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C789DB2381ECB10093DFA0 /* rtcApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rtcApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9C789DC2381ECB20093DFA0 /* RTCSessionDescription+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCSessionDescription+JSON.h"; sourceTree = "<group>"; };
+		F9C789DD2381ECB20093DFA0 /* ARDMessageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDMessageResponse.h; sourceTree = "<group>"; };
+		F9C789DE2381ECB20093DFA0 /* ARDAppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDAppClient.m; sourceTree = "<group>"; };
+		F9C789DF2381ECB30093DFA0 /* ARDRegisterResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDRegisterResponse.m; sourceTree = "<group>"; };
+		F9C789E02381ECB30093DFA0 /* ARDSignalingMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDSignalingMessage.m; sourceTree = "<group>"; };
+		F9C789E12381ECB30093DFA0 /* RTCICEServer+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCICEServer+JSON.h"; sourceTree = "<group>"; };
+		F9C789E22381ECB40093DFA0 /* RTCMediaConstraints+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCMediaConstraints+JSON.h"; sourceTree = "<group>"; };
+		F9C789E32381ECB40093DFA0 /* ARDSignalingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDSignalingMessage.h; sourceTree = "<group>"; };
+		F9C789E42381ECB50093DFA0 /* ARDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDUtilities.h; sourceTree = "<group>"; };
+		F9C789E52381ECB50093DFA0 /* RTCICECandidate+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCICECandidate+JSON.m"; sourceTree = "<group>"; };
+		F9C789E62381ECB60093DFA0 /* ARDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDUtilities.m; sourceTree = "<group>"; };
+		F9C789E72381ECB60093DFA0 /* ARDWebSocketChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDWebSocketChannel.h; sourceTree = "<group>"; };
+		F9C789E82381ECB70093DFA0 /* ARDRegisterResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDRegisterResponse.h; sourceTree = "<group>"; };
+		F9C789E92381ECB70093DFA0 /* ARDMessageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDMessageResponse.m; sourceTree = "<group>"; };
+		F9C789EA2381ECB80093DFA0 /* RTCMediaConstraints+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCMediaConstraints+JSON.m"; sourceTree = "<group>"; };
+		F9C789EB2381ECB80093DFA0 /* RTCSessionDescription+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCSessionDescription+JSON.m"; sourceTree = "<group>"; };
+		F9C789EC2381ECB90093DFA0 /* RTCICEServer+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCICEServer+JSON.m"; sourceTree = "<group>"; };
+		F9C789ED2381ECBA0093DFA0 /* ARDAppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDAppClient.h; sourceTree = "<group>"; };
+		F9C789EE2381ECBA0093DFA0 /* RTCICECandidate+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCICECandidate+JSON.h"; sourceTree = "<group>"; };
+		F9C789EF2381ECBB0093DFA0 /* ARDWebSocketChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDWebSocketChannel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE871438367F7706D3E1876 /* libPods-rtcApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDBD9B4EC4145855FB0275A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1123DDEEDF9492DBC6434B5 /* libPods-rtcApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3360509CD3381D1351B9677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F32914D5FEA60B1555C35FB /* Pods-rtcApp.debug.xcconfig */,
+				6748A20157196412650238A0 /* Pods-rtcApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F94333702381FCB9005CF627 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9C789C22381CC8B0093DFA0 /* RoomInfoViewController.swift */,
+				F94333712381FE20005CF627 /* CallViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F943337323820740005CF627 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		F9C789B42381CC8B0093DFA0 = {
 			isa = PBXGroup;
 			children = (
 				F9C789BF2381CC8B0093DFA0 /* rtcApp */,
 				F9C789BE2381CC8B0093DFA0 /* Products */,
+				A3360509CD3381D1351B9677 /* Pods */,
+				0BDBD9B4EC4145855FB0275A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +125,43 @@
 		F9C789BF2381CC8B0093DFA0 /* rtcApp */ = {
 			isa = PBXGroup;
 			children = (
+				F943337323820740005CF627 /* Other */,
 				F9C789C02381CC8B0093DFA0 /* AppDelegate.swift */,
-				F9C789C22381CC8B0093DFA0 /* ViewController.swift */,
-				F9C789C42381CC8B0093DFA0 /* Main.storyboard */,
+				F94333702381FCB9005CF627 /* ViewControllers */,
 				F9C789CA2381CC8B0093DFA0 /* Assets.xcassets */,
 				F9C789CC2381CC8B0093DFA0 /* LaunchScreen.storyboard */,
 				F9C789CF2381CC8B0093DFA0 /* Info.plist */,
-				F9C789C72381CC8B0093DFA0 /* rtcApp.xcdatamodeld */,
+				F9C789DA2381ECA00093DFA0 /* RTC */,
 			);
 			path = rtcApp;
+			sourceTree = "<group>";
+		};
+		F9C789DA2381ECA00093DFA0 /* RTC */ = {
+			isa = PBXGroup;
+			children = (
+				F9C789ED2381ECBA0093DFA0 /* ARDAppClient.h */,
+				F9C789DE2381ECB20093DFA0 /* ARDAppClient.m */,
+				F9C789DD2381ECB20093DFA0 /* ARDMessageResponse.h */,
+				F9C789E92381ECB70093DFA0 /* ARDMessageResponse.m */,
+				F9C789E82381ECB70093DFA0 /* ARDRegisterResponse.h */,
+				F9C789DF2381ECB30093DFA0 /* ARDRegisterResponse.m */,
+				F9C789E32381ECB40093DFA0 /* ARDSignalingMessage.h */,
+				F9C789E02381ECB30093DFA0 /* ARDSignalingMessage.m */,
+				F9C789E42381ECB50093DFA0 /* ARDUtilities.h */,
+				F9C789E62381ECB60093DFA0 /* ARDUtilities.m */,
+				F9C789E72381ECB60093DFA0 /* ARDWebSocketChannel.h */,
+				F9C789EF2381ECBB0093DFA0 /* ARDWebSocketChannel.m */,
+				F9C789EE2381ECBA0093DFA0 /* RTCICECandidate+JSON.h */,
+				F9C789E52381ECB50093DFA0 /* RTCICECandidate+JSON.m */,
+				F9C789E12381ECB30093DFA0 /* RTCICEServer+JSON.h */,
+				F9C789EC2381ECB90093DFA0 /* RTCICEServer+JSON.m */,
+				F9C789E22381ECB40093DFA0 /* RTCMediaConstraints+JSON.h */,
+				F9C789EA2381ECB80093DFA0 /* RTCMediaConstraints+JSON.m */,
+				F9C789DC2381ECB20093DFA0 /* RTCSessionDescription+JSON.h */,
+				F9C789EB2381ECB80093DFA0 /* RTCSessionDescription+JSON.m */,
+				F9C789DB2381ECB10093DFA0 /* rtcApp-Bridging-Header.h */,
+			);
+			name = RTC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9C789D22381CC8B0093DFA0 /* Build configuration list for PBXNativeTarget "rtcApp" */;
 			buildPhases = (
+				7508FF5E6ADE216A404566CB /* [CP] Check Pods Manifest.lock */,
 				F9C789B92381CC8B0093DFA0 /* Sources */,
 				F9C789BA2381CC8B0093DFA0 /* Frameworks */,
 				F9C789BB2381CC8B0093DFA0 /* Resources */,
@@ -99,6 +197,7 @@
 				TargetAttributes = {
 					F9C789BC2381CC8B0093DFA0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,19 +227,49 @@
 			files = (
 				F9C789CE2381CC8B0093DFA0 /* LaunchScreen.storyboard in Resources */,
 				F9C789CB2381CC8B0093DFA0 /* Assets.xcassets in Resources */,
-				F9C789C62381CC8B0093DFA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7508FF5E6ADE216A404566CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rtcApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9C789B92381CC8B0093DFA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9C789C92381CC8B0093DFA0 /* rtcApp.xcdatamodeld in Sources */,
-				F9C789C32381CC8B0093DFA0 /* ViewController.swift in Sources */,
+				F9C789F12381ECBB0093DFA0 /* ARDRegisterResponse.m in Sources */,
+				F9C789F02381ECBB0093DFA0 /* ARDAppClient.m in Sources */,
+				F9C789F32381ECBB0093DFA0 /* RTCICECandidate+JSON.m in Sources */,
+				F9C789F82381ECBB0093DFA0 /* RTCICEServer+JSON.m in Sources */,
+				F9C789F42381ECBB0093DFA0 /* ARDUtilities.m in Sources */,
+				F94333722381FE20005CF627 /* CallViewController.swift in Sources */,
+				F9C789F92381ECBB0093DFA0 /* ARDWebSocketChannel.m in Sources */,
+				F9C789F72381ECBB0093DFA0 /* RTCSessionDescription+JSON.m in Sources */,
+				F9C789C32381CC8B0093DFA0 /* RoomInfoViewController.swift in Sources */,
+				F9C789F22381ECBB0093DFA0 /* ARDSignalingMessage.m in Sources */,
+				F9C789F62381ECBB0093DFA0 /* RTCMediaConstraints+JSON.m in Sources */,
+				F9C789F52381ECBB0093DFA0 /* ARDMessageResponse.m in Sources */,
 				F9C789C12381CC8B0093DFA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,14 +277,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F9C789C42381CC8B0093DFA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F9C789C52381CC8B0093DFA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F9C789CC2381CC8B0093DFA0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -199,6 +320,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -256,6 +378,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -276,14 +399,19 @@
 		};
 		F9C789D32381CC8B0093DFA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F32914D5FEA60B1555C35FB /* Pods-rtcApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WL97D5DF35;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = rtcApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Home.rtcApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rtcApp/rtcApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,14 +419,18 @@
 		};
 		F9C789D42381CC8B0093DFA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6748A20157196412650238A0 /* Pods-rtcApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WL97D5DF35;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = rtcApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Home.rtcApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rtcApp/rtcApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -326,19 +458,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F9C789C72381CC8B0093DFA0 /* rtcApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F9C789C82381CC8B0093DFA0 /* rtcApp.xcdatamodel */,
-			);
-			currentVersion = F9C789C82381CC8B0093DFA0 /* rtcApp.xcdatamodel */;
-			path = rtcApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F9C789B52381CC8B0093DFA0 /* Project object */;
 }
