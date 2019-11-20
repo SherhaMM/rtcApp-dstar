@@ -52,7 +52,6 @@ class RoomInfoViewController: UIViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(resignTextFieldResponder(_:)))
         tapGesture.cancelsTouchesInView = true
         view.addGestureRecognizer(tapGesture)
-        // Do any additional setup after loading the view, typically from a nib.
     }
    
     private func configureConstraints() {
